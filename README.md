@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FlexPrice Frontend — Storybook
 
 A small React component library themed for **FlexPrice** (usage-based billing /
@@ -47,3 +48,6 @@ Defined in `src/styles/theme.css`:
 | `--flex-violet`  | `#5b3df5` |
 
 Display: **Fraunces** · UI: **Inter Tight** · Mono: **DM Mono**
+=======
+# FLEX_ASSIGNMENT
+>>>>>>> 8308c7f855f2555c908afeaf09f6bed382be059b
