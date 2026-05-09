@@ -1,0 +1,16 @@
+.fp-avatar { position: relative; display: inline-flex; align-items: center; justify-content: center; background: var(--flex-accent-soft); color: var(--flex-accent); font-weight: 700; font-family: var(--flex-font-sans); overflow: hidden; flex-shrink: 0; }
+.fp-avatar--circle { border-radius: 50%; }
+.fp-avatar--square { border-radius: 12px; }
+.fp-avatar--sm { width: 28px; height: 28px; font-size: 11px; }
+.fp-avatar--md { width: 40px; height: 40px; font-size: 14px; }
+.fp-avatar--lg { width: 56px; height: 56px; font-size: 18px; }
+.fp-avatar--xl { width: 80px; height: 80px; font-size: 24px; }
+.fp-avatar__img { width: 100%; height: 100%; object-fit: cover; }
+.fp-avatar__status {
+  position: absolute; right: 0; bottom: 0; width: 30%; height: 30%;
+  border-radius: 50%; border: 2px solid #fff;
+}
+.fp-avatar__status--online { background: var(--flex-success); }
+.fp-avatar__status--away { background: var(--flex-warn); }
+.fp-avatar__status--busy { background: var(--flex-danger); }
+.fp-avatar__status--offline { background: var(--flex-muted); }

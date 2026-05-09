@@ -1,0 +1,14 @@
+.fp-flist { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+.fp-flist--dense { gap: 6px; }
+.fp-flist__row {
+  display: flex; align-items: flex-start; gap: 10px;
+  font-size: 14px; color: var(--flex-ink); line-height: 1.5;
+}
+.fp-flist__row--off { color: var(--flex-muted); text-decoration: line-through; text-decoration-color: rgba(138,143,152,0.5); }
+.fp-flist__mark {
+  flex: 0 0 18px; height: 18px; border-radius: 50%;
+  background: var(--flex-mint); color: #2a4708; font-size: 12px; font-weight: 700;
+  display: inline-flex; align-items: center; justify-content: center;
+  margin-top: 2px;
+}
+.fp-flist__row--off .fp-flist__mark { background: #efece6; color: var(--flex-muted); }

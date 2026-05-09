@@ -1,0 +1,12 @@
+.fp-metric { background: #fff; border: 1px solid var(--flex-line); border-radius: var(--flex-radius-lg); padding: 22px; min-width: 220px; display: flex; flex-direction: column; gap: 6px; transition: box-shadow 220ms ease, transform 220ms ease; }
+.fp-metric:hover { box-shadow: var(--flex-shadow-2); transform: translateY(-2px); }
+.fp-metric--accent { background: var(--flex-ink); color: #fff; border-color: var(--flex-ink); }
+.fp-metric__label { font-family: var(--flex-font-mono); text-transform: uppercase; letter-spacing: 0.12em; font-size: 11px; color: var(--flex-muted); }
+.fp-metric--accent .fp-metric__label { color: rgba(255,255,255,0.55); }
+.fp-metric__value { font-family: var(--flex-font-display); font-size: 36px; font-weight: 600; letter-spacing: -0.02em; line-height: 1; }
+.fp-metric__delta { display: inline-flex; gap: 4px; align-items: center; font-size: 13px; font-weight: 600; margin-top: 6px; }
+.fp-metric__delta--up { color: var(--flex-success); }
+.fp-metric__delta--down { color: var(--flex-danger); }
+.fp-metric__delta--flat { color: var(--flex-muted); }
+.fp-metric__help { font-size: 12px; color: var(--flex-muted); margin-top: 4px; }
+.fp-metric--accent .fp-metric__help { color: rgba(255,255,255,0.55); }

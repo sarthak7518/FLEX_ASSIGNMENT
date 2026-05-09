@@ -1,0 +1,17 @@
+.fp-badge {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-family: var(--flex-font-sans); font-weight: 600; letter-spacing: 0.01em;
+  border-radius: 999px; padding: 4px 10px; font-size: 12px; line-height: 1;
+  border: 1px solid transparent;
+}
+.fp-badge--sm { padding: 2px 8px; font-size: 11px; }
+.fp-badge--lg { padding: 6px 12px; font-size: 13px; }
+.fp-badge--neutral { background: #f1efea; color: var(--flex-ink-soft); }
+.fp-badge--success { background: #e7f6ee; color: var(--flex-success); }
+.fp-badge--warn { background: #fff4dc; color: var(--flex-warn); }
+.fp-badge--danger { background: #fde8e6; color: var(--flex-danger); }
+.fp-badge--accent { background: var(--flex-accent-soft); color: var(--flex-accent); }
+.fp-badge--violet { background: #ece8ff; color: var(--flex-violet); }
+.fp-badge--mint { background: #f0fbd7; color: #4d7a16; }
+.fp-badge--outline { background: transparent; border-color: var(--flex-line); color: var(--flex-ink); }
+.fp-badge__dot { width: 6px; height: 6px; border-radius: 50%; background: currentColor; }

@@ -1,0 +1,11 @@
+.fp-tip { position: relative; display: inline-flex; }
+.fp-tip__bubble { position: absolute; padding: 6px 10px; background: var(--flex-ink); color: #fff; font-size: 12px; font-weight: 500; border-radius: 8px; white-space: nowrap; opacity: 0; pointer-events: none; transform: translateY(4px); transition: opacity 160ms ease, transform 160ms ease; z-index: 50; }
+.fp-tip:hover .fp-tip__bubble, .fp-tip:focus-within .fp-tip__bubble { opacity: 1; transform: translateY(0); }
+.fp-tip--top .fp-tip__bubble { bottom: calc(100% + 8px); left: 50%; transform: translate(-50%, 4px); }
+.fp-tip--top:hover .fp-tip__bubble { transform: translate(-50%, 0); }
+.fp-tip--bottom .fp-tip__bubble { top: calc(100% + 8px); left: 50%; transform: translate(-50%, -4px); }
+.fp-tip--bottom:hover .fp-tip__bubble { transform: translate(-50%, 0); }
+.fp-tip--left .fp-tip__bubble { right: calc(100% + 8px); top: 50%; transform: translate(4px, -50%); }
+.fp-tip--left:hover .fp-tip__bubble { transform: translate(0, -50%); }
+.fp-tip--right .fp-tip__bubble { left: calc(100% + 8px); top: 50%; transform: translate(-4px, -50%); }
+.fp-tip--right:hover .fp-tip__bubble { transform: translate(0, -50%); }

@@ -1,0 +1,15 @@
+.fp-alert { display: flex; gap: 12px; align-items: flex-start; padding: 14px 16px; border-radius: var(--flex-radius-md); border: 1px solid; min-width: 320px; max-width: 520px; }
+.fp-alert__icon { width: 22px; height: 22px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-weight: 700; font-size: 13px; flex-shrink: 0; }
+.fp-alert__body { flex: 1; }
+.fp-alert__title { font-weight: 600; margin-bottom: 2px; font-size: 14px; }
+.fp-alert__text { font-size: 13px; line-height: 1.5; }
+.fp-alert__close { background: none; border: none; cursor: pointer; font-size: 18px; color: inherit; opacity: 0.6; padding: 0 4px; line-height: 1; }
+.fp-alert__close:hover { opacity: 1; }
+.fp-alert--info { background: #eef3fb; color: #1f3b6b; border-color: #d6e1f3; }
+.fp-alert--info .fp-alert__icon { background: #1f3b6b; color: #fff; }
+.fp-alert--success { background: #e7f6ee; color: #14533a; border-color: #c6ebd6; }
+.fp-alert--success .fp-alert__icon { background: var(--flex-success); color: #fff; }
+.fp-alert--warn { background: #fff4dc; color: #7a5500; border-color: #f3deaf; }
+.fp-alert--warn .fp-alert__icon { background: var(--flex-warn); color: #fff; }
+.fp-alert--danger { background: #fde8e6; color: #7d201a; border-color: #f3c8c4; }
+.fp-alert--danger .fp-alert__icon { background: var(--flex-danger); color: #fff; }

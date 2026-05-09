@@ -1,0 +1,30 @@
+.fp-input { display: inline-flex; flex-direction: column; gap: 6px; min-width: 260px; }
+.fp-input--full { width: 100%; }
+.fp-input__label { font-size: 13px; font-weight: 500; color: var(--flex-ink); }
+.fp-input__wrap {
+  display: flex; align-items: stretch; background: #fff;
+  border: 1px solid var(--flex-line); border-radius: var(--flex-radius-md);
+  transition: border-color 160ms ease, box-shadow 160ms ease;
+}
+.fp-input__wrap:focus-within {
+  border-color: var(--flex-ink);
+  box-shadow: 0 0 0 4px rgba(11,12,15,0.06);
+}
+.fp-input--error .fp-input__wrap {
+  border-color: var(--flex-danger);
+  box-shadow: 0 0 0 4px rgba(193,53,43,0.10);
+}
+.fp-input__affix {
+  display: inline-flex; align-items: center; padding: 0 12px;
+  color: var(--flex-muted); font-size: 13px;
+  border-right: 1px solid var(--flex-line);
+}
+.fp-input__affix--right { border-right: none; border-left: 1px solid var(--flex-line); }
+.fp-input__field {
+  flex: 1; border: none; outline: none; padding: 10px 14px;
+  font-family: inherit; font-size: 14px; color: var(--flex-ink);
+  background: transparent; border-radius: inherit;
+}
+.fp-input__field::placeholder { color: var(--flex-muted); }
+.fp-input__hint { font-size: 12px; color: var(--flex-muted); }
+.fp-input__error { font-size: 12px; color: var(--flex-danger); }

@@ -1,0 +1,15 @@
+.fp-plan {
+  position: relative; background: #fff; border: 1px solid var(--flex-line);
+  border-radius: var(--flex-radius-lg); padding: 28px; width: 320px;
+  display: flex; flex-direction: column; gap: 14px;
+  transition: transform 220ms ease, box-shadow 220ms ease;
+}
+.fp-plan:hover { transform: translateY(-3px); box-shadow: var(--flex-shadow-2); }
+.fp-plan--hi { border-color: var(--flex-ink); box-shadow: 8px 8px 0 var(--flex-ink); }
+.fp-plan__badge { position: absolute; top: 18px; right: 18px; }
+.fp-plan__name {
+  font-family: var(--flex-font-mono); text-transform: uppercase;
+  letter-spacing: 0.12em; font-size: 12px; color: var(--flex-muted);
+}
+.fp-plan__desc { font-size: 14px; color: var(--flex-ink-soft); line-height: 1.5; }
+.fp-plan__price { padding: 8px 0 4px; }

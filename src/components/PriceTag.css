@@ -1,0 +1,12 @@
+.fp-price {
+  display: inline-flex; align-items: baseline; gap: 4px;
+  font-family: var(--flex-font-display); color: var(--flex-ink);
+}
+.fp-price__currency { font-size: 0.5em; font-weight: 500; align-self: flex-start; padding-top: 0.4em; color: var(--flex-ink-soft); }
+.fp-price__amount { font-weight: 700; letter-spacing: -0.03em; line-height: 1; }
+.fp-price__period { font-family: var(--flex-font-sans); font-size: 0.32em; font-weight: 500; color: var(--flex-muted); margin-left: 4px; align-self: flex-end; padding-bottom: 0.4em; }
+.fp-price__strike { font-family: var(--flex-font-sans); font-size: 0.3em; color: var(--flex-muted); text-decoration: line-through; margin-left: 8px; align-self: center; }
+.fp-price--sm { font-size: 32px; }
+.fp-price--md { font-size: 56px; }
+.fp-price--lg { font-size: 80px; }
+.fp-price--accent .fp-price__amount { color: var(--flex-accent); }

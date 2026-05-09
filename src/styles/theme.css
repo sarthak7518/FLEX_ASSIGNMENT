@@ -1,0 +1,37 @@
+:root {
+  --flex-bg: #f7f7f5;
+  --flex-surface: #ffffff;
+  --flex-ink: #0b0c0f;
+  --flex-ink-soft: #3d4046;
+  --flex-muted: #8a8f98;
+  --flex-line: #e6e4df;
+  --flex-accent: #ff5b1f;
+  --flex-accent-soft: #ffe7dc;
+  --flex-mint: #c9f27a;
+  --flex-violet: #5b3df5;
+  --flex-success: #1f8a5b;
+  --flex-warn: #c98a00;
+  --flex-danger: #c1352b;
+
+  --flex-radius-sm: 8px;
+  --flex-radius-md: 14px;
+  --flex-radius-lg: 22px;
+
+  --flex-shadow-1: 0 1px 0 rgba(0,0,0,0.04), 0 1px 2px rgba(0,0,0,0.04);
+  --flex-shadow-2: 0 8px 28px rgba(11,12,15,0.08);
+
+  --flex-font-display: "Fraunces", "Times New Roman", serif;
+  --flex-font-sans: "Inter Tight", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --flex-font-mono: "DM Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+* { box-sizing: border-box; }
+
+body, .sb-show-main {
+  font-family: var(--flex-font-sans);
+  color: var(--flex-ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+.fp-stack { display: flex; flex-direction: column; gap: 12px; }
+.fp-row { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }

@@ -1,0 +1,16 @@
+.fp-tabs { width: 100%; max-width: 520px; }
+.fp-tabs__list { display: inline-flex; gap: 4px; }
+.fp-tabs__btn {
+  background: none; border: none; cursor: pointer;
+  font-family: inherit; font-size: 14px; font-weight: 500; color: var(--flex-muted);
+  padding: 10px 14px; transition: color 160ms ease, background 160ms ease;
+}
+.fp-tabs__btn:hover { color: var(--flex-ink); }
+.fp-tabs__btn.is-active { color: var(--flex-ink); }
+.fp-tabs--underline .fp-tabs__list { border-bottom: 1px solid var(--flex-line); }
+.fp-tabs--underline .fp-tabs__btn { border-bottom: 2px solid transparent; margin-bottom: -1px; }
+.fp-tabs--underline .fp-tabs__btn.is-active { border-bottom-color: var(--flex-ink); }
+.fp-tabs--pill .fp-tabs__list { background: #f1efea; border-radius: 999px; padding: 4px; }
+.fp-tabs--pill .fp-tabs__btn { border-radius: 999px; }
+.fp-tabs--pill .fp-tabs__btn.is-active { background: #fff; color: var(--flex-ink); box-shadow: var(--flex-shadow-1); }
+.fp-tabs__panel { padding: 18px 4px; font-size: 14px; color: var(--flex-ink-soft); line-height: 1.6; }

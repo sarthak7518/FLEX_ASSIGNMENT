@@ -1,0 +1,6 @@
+.fp-pagi { display: inline-flex; align-items: center; gap: 4px; }
+.fp-pagi__btn { min-width: 36px; height: 36px; padding: 0 10px; background: #fff; border: 1px solid var(--flex-line); border-radius: 10px; cursor: pointer; font-family: inherit; font-size: 14px; color: var(--flex-ink); transition: background 160ms ease, color 160ms ease, border-color 160ms ease; }
+.fp-pagi__btn:hover:not(:disabled) { border-color: var(--flex-ink); }
+.fp-pagi__btn:disabled { opacity: 0.4; cursor: not-allowed; }
+.fp-pagi__btn.is-active { background: var(--flex-ink); color: #fff; border-color: var(--flex-ink); }
+.fp-pagi__dots { padding: 0 6px; color: var(--flex-muted); }

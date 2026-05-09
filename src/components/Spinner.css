@@ -1,0 +1,10 @@
+.fp-spin-wrap { display: inline-flex; align-items: center; gap: 10px; }
+.fp-spin { display: inline-block; border-radius: 50%; border: 3px solid currentColor; border-right-color: transparent; animation: fp-spin 0.9s linear infinite; }
+.fp-spin--sm { width: 16px; height: 16px; border-width: 2px; }
+.fp-spin--md { width: 28px; height: 28px; }
+.fp-spin--lg { width: 44px; height: 44px; border-width: 4px; }
+.fp-spin--ink { color: var(--flex-ink); }
+.fp-spin--accent { color: var(--flex-accent); }
+.fp-spin--muted { color: var(--flex-muted); }
+.fp-spin__label { font-size: 13px; color: var(--flex-ink-soft); }
+@keyframes fp-spin { to { transform: rotate(360deg); } }
